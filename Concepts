@@ -1,0 +1,60 @@
+Java window application
+
+
+Menu
+
+Window
+Clean - wipes all entities
+Exit - closes application
+
+Controls
+Help
+Keymap (maybe)
+About
+General application info
+
+Layout
+Control Panel down left side
+  Pause/Resume
+  Create <entity>
+  Remove selected
+  Behavior
+    Distance allowed
+    Speed
+    Select specific behavior
+    Form line
+    Form circle
+Sandbox
+  Envelopes remainder of window
+
+Functionality
+Left-Click to select
+Right-Click to order move command
+
+Code Design
+Main class - launches window, initializes components.
+Window - contains menu, control panel, sandbox.  Handles user interaction
+Sandbox
+Controls - static set of values defining behavior of <entity>s
+
+Location - x/y coordinates (in terms of sandbox)
+<Entity>Locations - table of x/y coordinates
+Tied into controls upon creation
+CheckForProximity(location) // returns list of locations within distance specified by controls
+
+<entity> - Thread based, no outside manipulation other than commands (move here, form line)
+Public
+Constructor - no-args / with location, color, orientation, ties to controls fields
+Move (location)
+FormShape(shapeEnum)
+Kill()
+Private
+Run(not private) 	// only called upon creation, while(true){do stuff, sleep}
+CheckNeighbors()	// checks for nearby <entity>s
+Advance()		// moves speed distance per tick
+UpdateLocation()	// Alerts table of new location
+
+
+
+
+Once a formation is reached (within margin of error) lock in neighbors.  Keep their relative position constant.  Allowing formation to move.
