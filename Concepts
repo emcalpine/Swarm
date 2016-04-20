@@ -1,19 +1,18 @@
 Java window application
 
 
-Menu
-
-Window
+##Menu
+####Window
 Clean - wipes all entities
 Exit - closes application
 
-Controls
+####Controls
 Help
 Keymap (maybe)
-About
+####About
 General application info
 
-Layout
+##Layout
 Control Panel down left side
   Pause/Resume
   Create <entity>
@@ -27,11 +26,11 @@ Control Panel down left side
 Sandbox
   Envelopes remainder of window
 
-Functionality
+##Functionality
 Left-Click to select
 Right-Click to order move command
 
-Code Design
+##Code Design
 Main class - launches window, initializes components.
 Window - contains menu, control panel, sandbox.  Handles user interaction
 Sandbox
