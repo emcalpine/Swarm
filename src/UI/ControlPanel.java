@@ -1,4 +1,21 @@
+/*  Eric McAlpine
+    ControlPanel.java
+    created 4-20-2016
+    
+    purpose: Panel that 
+*/
 
-public class ControlPanel {
+import javax.swing.*;
 
+public class ControlPanel extends JPanel{
+
+	// Variable Dictionary 
+	//JButton
+	//JLabel
+	//JTextArea
+	
+	public ControlPanel()
+	{
+		
+	}
 }
