@@ -1,3 +1,11 @@
+/*  Eric McAlpine
+    OomCommand.java
+    created 4-20-2016
+    
+    purpose: List of commands to send the ooms
+    
+*/
+
 
 public enum OomCommand {
 	// Unknown aka default

@@ -1,3 +1,11 @@
+/*  Eric McAlpine
+    Location.java
+    created 4-20-2016
+    
+    purpose: Class that represents a location, currently a pair of coordinates
+    
+*/
+
 
 public class Location {
 	
