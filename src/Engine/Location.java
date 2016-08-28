@@ -34,4 +34,14 @@ public class Location {
 		x = (i > 0.0) ? i : x;
 		y = (j > 0.0) ? j : y;
 	}
+	
+	public double getX()
+	{
+		return x;
+	}
+	
+	public double getY()
+	{
+		return y;
+	}
 }
