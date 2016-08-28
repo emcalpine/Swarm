@@ -35,10 +35,6 @@ public class SwarmWindow
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		buildMenus();
 		
-		ctrlPanel = new ControlPanel();
-		
-		frame.add(ctrlPanel);
-		
 		// Display
 		frame.pack();
 		frame.setVisible(true);
