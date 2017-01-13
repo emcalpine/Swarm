@@ -39,6 +39,7 @@ Controls - static set of values defining behavior of <entity>s
 Location - x/y coordinates (in terms of sandbox)
 <Entity>Locations - table of x/y coordinates
 Tied into controls upon creation
+Each Oom should have an Id, tied with location in map for quick access.
 CheckForProximity(location) // returns list of locations within distance specified by controls
 
 <entity> - Thread based, no outside manipulation other than commands (move here, form line)
