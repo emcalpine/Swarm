@@ -32,8 +32,11 @@ public class SwarmWindow
 	public SwarmWindow()
 	{
 		frame = new JFrame(WINDOW_NAME);
+		frame.setLayout(new GridLayout());
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		buildMenus();
+		buildControlPanel();
+		buildSandbox();
 		
 		// Display
 		frame.pack();
@@ -78,6 +81,20 @@ public class SwarmWindow
 		
 		// Add Menu to frame
 		frame.setJMenuBar(menuBar);
+	}
+	
+	public void buildControlPanel()
+	{
+		ctrlPanel = new ControlPanel();
+		
+		frame.add(ctrlPanel);
+	}
+	
+	public void buildSandbox()
+	{
+		sandbox = new Sandbox();
+		
+		frame.add(sandbox);
 	}
 	
 	public static void main(String[] args)
