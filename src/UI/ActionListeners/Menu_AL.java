@@ -59,7 +59,7 @@ public class Menu_AL implements ActionListener, ItemListener {
 	
 	void action_Exit()
 	{
-		
+		System.exit(0);
 	}
 	
 	void action_Help()

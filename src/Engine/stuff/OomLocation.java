@@ -1,4 +1,4 @@
-
+package stuff;
 public class OomLocation {
 	Oom o;
 	Location l;

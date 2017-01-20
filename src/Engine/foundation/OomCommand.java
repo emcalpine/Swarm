@@ -1,3 +1,4 @@
+package foundation;
 /*  Eric McAlpine
     OomCommand.java
     created 4-20-2016

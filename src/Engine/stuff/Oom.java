@@ -1,3 +1,6 @@
+package stuff;
+import foundation.OomCommand;
+
 /*  Eric McAlpine
     Oom.java
     created 4-20-2016

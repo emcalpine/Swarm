@@ -1,3 +1,4 @@
+package stuff;
 /*  Eric McAlpine
     Location.java
     created 4-20-2016

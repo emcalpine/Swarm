@@ -1,21 +1,16 @@
-/*  Eric McAlpine
-    Sandbox.java
-    created 4-20-2016
-    
-    purpose: The sandbox where everything is displayed
-    
-*/
+package userInterface;
+
 
 import javax.swing.*;
+
+import stuff.Oom;
 
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 
-public class Sandbox extends JPanel{
-	
-	// Variable Dictionary
-	
+public class Sandbox extends JPanel
+{	
 	
 	// Default Constructor
 	public Sandbox()

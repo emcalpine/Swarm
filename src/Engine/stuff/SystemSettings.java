@@ -1,3 +1,4 @@
+package stuff;
 /*  Eric McAlpine
     SystemSettings.java
     created on: 4-20-2016
@@ -16,4 +17,7 @@ public class SystemSettings
 	
 	// Speed of the ooms, or distance they will cover per loop cycle.
 	public static double oomSpeed = 0.0;
+	
+	// Is the simulation currently running or paused
+	public static boolean isPlaying = true;
 }
