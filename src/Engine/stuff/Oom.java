@@ -44,6 +44,9 @@ public class Oom extends Thread {
 				{
 					break;
 				}	// ocMOVE
+				default:
+					System.out.println("Invalid Oom Command");
+					break;
 			}
 		}
 	}

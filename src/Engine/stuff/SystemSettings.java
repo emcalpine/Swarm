@@ -20,4 +20,7 @@ public class SystemSettings
 	
 	// Is the simulation currently running or paused
 	public static boolean isPlaying = true;
+	
+	// The maximum number of Ooms allowed at one time
+	public static final int MAX_OOMS = 10;
 }

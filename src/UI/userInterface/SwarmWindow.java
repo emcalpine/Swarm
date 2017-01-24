@@ -4,6 +4,7 @@ package userInterface;
 import java.awt.*;
 import javax.swing.*;
 import ActionListeners.Menu_AL;
+import foundation.OomIdStack;
 
 public class SwarmWindow
 {
@@ -33,6 +34,8 @@ public class SwarmWindow
 		buildMenus();
 		buildControlPanel();
 		buildSandbox();
+		
+		OomIdStack.initialize();
 		
 		// Display
 		frame.pack();

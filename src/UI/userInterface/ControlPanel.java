@@ -10,6 +10,7 @@ public class ControlPanel extends JPanel{
 
 	// Variable Dictionary 
 	JButton btn_PlayPause;
+	JButton btn_AddOom;
 	//JLabel
 	//JTextArea
 	
@@ -29,8 +30,12 @@ public class ControlPanel extends JPanel{
 		
 		btn_PlayPause = new JButton("Play / Pause");
 		btn_PlayPause.addActionListener(controlAl);
+		
+		btn_AddOom = new JButton("Add Oom");
+		btn_AddOom.addActionListener(controlAl);
 
 		this.add(s);
 		this.add(btn_PlayPause);
+		this.add(btn_AddOom);
 	}
 }
