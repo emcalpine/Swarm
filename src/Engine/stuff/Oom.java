@@ -63,4 +63,9 @@ public class Oom extends Thread {
 	{
 		
 	}
+	
+	public Location getLocation()
+	{
+		return position;
+	}
 }
